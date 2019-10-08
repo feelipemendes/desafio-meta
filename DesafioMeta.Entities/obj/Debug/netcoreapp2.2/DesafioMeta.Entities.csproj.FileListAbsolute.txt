@@ -1,0 +1,9 @@
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Entities\bin\Debug\netcoreapp2.2\DesafioMeta.Entities.deps.json
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Entities\bin\Debug\netcoreapp2.2\DesafioMeta.Entities.dll
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Entities\bin\Debug\netcoreapp2.2\DesafioMeta.Entities.pdb
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Entities\obj\Debug\netcoreapp2.2\DesafioMeta.Entities.csprojAssemblyReference.cache
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Entities\obj\Debug\netcoreapp2.2\DesafioMeta.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Entities\obj\Debug\netcoreapp2.2\DesafioMeta.Entities.AssemblyInfoInputs.cache
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Entities\obj\Debug\netcoreapp2.2\DesafioMeta.Entities.AssemblyInfo.cs
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Entities\obj\Debug\netcoreapp2.2\DesafioMeta.Entities.dll
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Entities\obj\Debug\netcoreapp2.2\DesafioMeta.Entities.pdb
