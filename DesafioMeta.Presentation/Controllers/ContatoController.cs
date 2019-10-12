@@ -24,6 +24,7 @@ namespace DesafioMeta.Presentation.Controllers
             _mapper = mapper;
         }
 
+        // POST api/contato
         [HttpPost]
         public IActionResult Post([FromBody] ContatoCreateViewModel model)
         {
@@ -46,6 +47,7 @@ namespace DesafioMeta.Presentation.Controllers
             }
         }
 
+        // PUT api/contato
         [HttpPut]
         public IActionResult Put([FromBody] ContatoUpdateViewModel model)
         {
@@ -68,6 +70,7 @@ namespace DesafioMeta.Presentation.Controllers
             }
         }
 
+        // DELETE api/contato/id
         [HttpDelete("{idContato}")]
         public IActionResult Delete(int idContato)
         {
@@ -85,6 +88,7 @@ namespace DesafioMeta.Presentation.Controllers
             }
         }
 
+        // GET api/contato
         [HttpGet]
         public IActionResult GetAll()
         {            
@@ -101,6 +105,7 @@ namespace DesafioMeta.Presentation.Controllers
             }
         }
 
+        // GET api/contato/id
         [HttpGet("{idContato}")]
         public IActionResult GetById(int idContato)
         {
