@@ -90,12 +90,14 @@ namespace DesafioMeta.Presentation.Controllers
 
         // GET api/contato
         [HttpGet]
-        public IActionResult GetAll()
-        {            
+        public IActionResult Get(int page = 0, int size = 10)
+        {
             try
-            {
+            {               
                 var list = _mapper.Map<List<ContatoViewModel>>
-                                (repository.SelectAll());
+                                (repository.SelectAll())
+                                .GetRange(page, size);
+                
                 return Ok(list);
             }
             catch (Exception e)
@@ -111,7 +113,7 @@ namespace DesafioMeta.Presentation.Controllers
         {
             try
             {
-                
+
                 var contato = repository.SelectAll().FirstOrDefault(x => x.Id == idContato);
                 var model = _mapper.Map<ContatoViewModel>
                     (contato);
