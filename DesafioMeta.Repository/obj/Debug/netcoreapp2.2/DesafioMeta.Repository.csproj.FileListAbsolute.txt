@@ -1,12 +1,12 @@
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\bin\Debug\netcoreapp2.2\DesafioMeta.Repository.deps.json
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\bin\Debug\netcoreapp2.2\DesafioMeta.Repository.dll
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\bin\Debug\netcoreapp2.2\DesafioMeta.Repository.pdb
 C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\bin\Debug\netcoreapp2.2\DesafioMeta.Entities.dll
+C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\bin\Debug\netcoreapp2.2\DesafioMeta.Entities.pdb
 C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\obj\Debug\netcoreapp2.2\DesafioMeta.Repository.csprojAssemblyReference.cache
 C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\obj\Debug\netcoreapp2.2\DesafioMeta.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\obj\Debug\netcoreapp2.2\DesafioMeta.Repository.AssemblyInfoInputs.cache
 C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\obj\Debug\netcoreapp2.2\DesafioMeta.Repository.AssemblyInfo.cs
-C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\bin\Debug\netcoreapp2.2\DesafioMeta.Repository.deps.json
-C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\bin\Debug\netcoreapp2.2\DesafioMeta.Repository.dll
-C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\bin\Debug\netcoreapp2.2\DesafioMeta.Repository.pdb
-C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\bin\Debug\netcoreapp2.2\DesafioMeta.Entities.pdb
 C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\obj\Debug\netcoreapp2.2\DesafioMeta.Repository.csproj.CopyComplete
 C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\obj\Debug\netcoreapp2.2\DesafioMeta.Repository.dll
 C:\Users\Felipe\source\repos\DesafioMeta\DesafioMeta.Repository\obj\Debug\netcoreapp2.2\DesafioMeta.Repository.pdb

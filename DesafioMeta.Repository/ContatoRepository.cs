@@ -4,6 +4,8 @@ using DesafioMeta.Repository.Contracts;
 using Dapper;
 using System.Data.SqlClient;
 using System.Linq;
+using System;
+
 
 namespace DesafioMeta.Repository
 {
@@ -30,14 +32,14 @@ namespace DesafioMeta.Repository
             }
         }
 
-        public void Delete(int idContato)
+        public void Delete(Contato contato)
         {
             var query = "DELETE FROM CONTATO " +
                 "WHERE ID = @Id";
 
             using (var conn = new SqlConnection(connectionString))
             {
-                conn.Execute(query, idContato);
+                conn.Execute(query, contato);
             }
         }
 
@@ -52,17 +54,18 @@ namespace DesafioMeta.Repository
             }
         }
 
-        public Contato GetById(int Id)
+        public Contato GetById(int idContato)
         {
-            var query = "SELECT * FROM CONTATO WHERE ID = @Id";
+            var query = "SELECT * FROM CONTATO WHERE ID = @idContato";
 
             using (var conn = new SqlConnection(connectionString))
             {
-                return conn.QuerySingleOrDefault(query, new { Id });
+                var teste = conn.QuerySingleOrDefault(query, new { idContato });
+                return teste;
             }
         }
 
-        public List<Contato> SelectBy(int size, int page)
+        public List<Contato> SelectAll()
         {
             var query = "SELECT * FROM CONTATO";
 
@@ -75,7 +78,7 @@ namespace DesafioMeta.Repository
         
         public void Dispose()
         {
-            throw new System.NotImplementedException();
+            //GC.SupressFinalize(this); TODO
         }
     }
 }
